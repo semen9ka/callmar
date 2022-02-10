@@ -1,21 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=ru">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<title>Callmar</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+	rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responcive.css">
 
 	<script src="js/script.js"></script>
 
 </head>
+
 <body>
 
 	<div class="wrapper">
-		
+		<header class="header">
+			<nav class="navbar">
+				<a href="index.html" class="logo">
+					<img src="img/calmar_logo.png" alt="" class="logo__img">
+				</a>
+				<div class="sign-menu">
+					<button class="sign-menu__btn sign-in-button">Вход</button>
+					<button class="sign-menu__btn sign-up-button">Регистрация</button>
+				</div>
+			</nav>
+			<div class="hero">
+				<img src="img/calmar_background.png" alt="" class="hero__img">
+				<div class="hero__description">
+					<h1 class="hero__heading">
+						Обратный звонок на сайт
+					</h1>
+					<p class="hero__paragraph">
+						Получайте в 3 раза больше звонков сразу после установки виджета на Ваш сайт
+						<br>
+						Сервис окупает свой годовой тариф в первую же неделю
+					</p>
+					<a href="#" class="hero__btn">Подключить</a>
+				</div>
+			</div>
+		</header>
+		<!-- /.header -->
 	</div>
-	
+
 </body>
+
 </html>
